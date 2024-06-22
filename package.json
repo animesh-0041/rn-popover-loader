@@ -1,0 +1,17 @@
+{
+  "name": "rn-popover-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.2"
+  }
+}
