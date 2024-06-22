@@ -1,17 +1,24 @@
 {
   "name": "rn-popover-loader",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "description": "A simple popover loader component for React Native",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react-native", "loader", "popover"],
+  "author": "Animesh",
   "license": "ISC",
   "peerDependencies": {
     "react": "18.2.0",
     "react-native": "0.74.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.74.0"
   }
 }
